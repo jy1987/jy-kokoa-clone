@@ -1,3 +1,3 @@
 # JY Kokoa clone 2021
 
-Css get me better!
+Html & Css get me better!
