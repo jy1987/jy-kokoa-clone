@@ -1,9 +1,42 @@
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #f9f9fa;
   padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(83, 81, 81, 0.2);
 }
 
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+.nav__link {
+  color: black;
+  position: relative;
+}
+
+.nav_notification {
+  background-color: tomato;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__point {
+  background-color: tomato;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  left: 30px;
 }
