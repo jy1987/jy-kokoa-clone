@@ -27,7 +27,3 @@
   justify-content: space-between;
   color: rgb(0, 0, 0, 0.4);
 }
-
-.user-component__column :last-child {
-  color: rgb(0, 0, 0, 0.8);
-}

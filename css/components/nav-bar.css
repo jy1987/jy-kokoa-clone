@@ -18,14 +18,6 @@
 }
 
 .nav_notification {
-  background-color: tomato;
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
   position: absolute;
   left: 20px;
   bottom: 15px;
@@ -39,4 +31,12 @@
   color: white;
   position: absolute;
   left: 30px;
+}
+
+.find__point {
+  position: relative;
+  left: 70px;
+  bottom: 20px;
+  height: 4px;
+  width: 4px;
 }
