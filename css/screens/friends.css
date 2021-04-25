@@ -11,6 +11,6 @@
   color: rgb(206, 201, 201, 1);
 }
 
-.frineds-screen {
-  padding: 0px var(--horizontal-space);
+.friends-screen {
+  padding: 0px 25px;
 }

@@ -1,7 +1,9 @@
 .user-component {
   display: flex;
+  justify-content: space-between;
 }
 
+.user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
@@ -9,7 +11,7 @@
 .user-component__pic {
   width: 70px;
   height: 70px;
-  padding: 10px 15px;
+  padding: 10px 0px;
   border-radius: 30px;
   margin-right: 10px;
 }
@@ -17,15 +19,28 @@
 .user-component__title {
   font-size: 20px;
   font-weight: 600;
+  padding: 0px 2px;
 }
 
 .user-component__subtitle {
   margin-top: 10px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  color: red;
 }
 
 .user-component__pic--xl {
   width: 75px;
   height: 75px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child i {
+  color: rgb(0, 0, 0, 0.5);
 }

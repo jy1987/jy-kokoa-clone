@@ -14,3 +14,20 @@
 .screen-header__icons span {
   padding-left: 20px;
 }
+
+.friends-screen__channel {
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.user-component__column :last-child {
+  color: rgb(0, 0, 0, 0.8);
+}
