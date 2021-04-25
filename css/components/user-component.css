@@ -11,6 +11,7 @@
   height: 70px;
   padding: 10px 15px;
   border-radius: 30px;
+  margin-right: 10px;
 }
 
 .user-component__title {
@@ -22,4 +23,9 @@
   margin-top: 10px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__pic--xl {
+  width: 75px;
+  height: 75px;
 }

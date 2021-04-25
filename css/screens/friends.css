@@ -3,8 +3,14 @@
   display: block;
   background-color: rgb(206, 201, 201, 0.15);
   padding: 15px 0px;
+  font-size: 15px;
+  margin-bottom: 8px;
 }
 
 #friends-display-link i {
   color: rgb(206, 201, 201, 1);
+}
+
+.frineds-screen {
+  padding: 0px var(--horizontal-space);
 }
