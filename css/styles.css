@@ -8,7 +8,9 @@
 @import "screens/friends.css";
 @import "components/user-component.css";
 @import "components/badge.css";
-body {
+@import "screens/find.css";
+
+.body {
   background-color: white;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
